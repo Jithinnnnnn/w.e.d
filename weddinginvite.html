@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aarav &amp; Ananya | Wedding Invitation</title>
+  <meta name="description" content="You are cordially invited to the wedding of Aarav and Ananya on 24 November 2026 at The Serene Lake Resort &amp; Gardens.">
+  <meta name="theme-color" content="#4f7f90">
+
+  <!-- Icons & Fonts -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Montserrat:wght@300;400;500;600&family=Great+Vibes&display=swap" rel="stylesheet">
+
+  <!-- Stylesheet (file 2 of 2) -->
+  <link rel="stylesheet" href="weddinginvite.css">
+</head>
+<body class="locked">
+
+  <!-- ===================== OPENING CARD ===================== -->
+  <div id="invitation-preloader">
+    <div class="invite-card">
+      <div class="seal"><i class="fa-solid fa-heart"></i></div>
+      <p class="invite-kicker">You are cordially invited</p>
+      <h1 class="invite-title">The Wedding of</h1>
+      <div class="invite-names">Aarav &amp; Ananya</div>
+      <p class="invite-line">24 November 2026 &nbsp;|&nbsp; By the lakeside</p>
+      <button class="btn" type="button" id="openBtn">
+        <i class="fa-regular fa-envelope-open"></i> Open Invitation
+      </button>
+    </div>
+  </div>
+
+  <!-- ===================== HERO ===================== -->
+  <header class="hero" id="home">
+    <div class="hero-inner">
+      <span class="script">We are getting married</span>
+      <p class="hero-kicker">Together with our families</p>
+      <h1>Aarav <span class="amp">&amp;</span> Ananya</h1>
+
+      <div class="hero-meta">
+        <span><i class="fa-regular fa-calendar-check"></i> Tuesday, 24 November 2026</span>
+        <span><i class="fa-solid fa-location-dot"></i> The Serene Lake Resort &amp; Gardens</span>
+      </div>
+
+      <div class="timer" id="countdown" aria-label="Countdown to the wedding">
+        <div class="timer-box"><div class="timer-num" id="days">00</div><div class="timer-label">Days</div></div>
+        <div class="timer-box"><div class="timer-num" id="hours">00</div><div class="timer-label">Hours</div></div>
+        <div class="timer-box"><div class="timer-num" id="mins">00</div><div class="timer-label">Mins</div></div>
+        <div class="timer-box"><div class="timer-num" id="secs">00</div><div class="timer-label">Secs</div></div>
+      </div>
+
+      <div class="hero-cta">
+        <a href="#rsvp" class="btn gold"><i class="fa-solid fa-envelope"></i> RSVP Now</a>
+        <a href="#venue" class="btn ghost"><i class="fa-solid fa-map-location-dot"></i> View Venue</a>
+      </div>
+    </div>
+    <a href="#note" class="scroll-hint" aria-label="Scroll down"><i class="fa-solid fa-chevron-down"></i></a>
+  </header>
+
+  <main>
+    <!-- ===================== INVITATION NOTE ===================== -->
+    <section class="section" id="note">
+      <div class="container reveal">
+        <div class="note">
+          <span class="script" style="font-size:2.4rem;">With joyful hearts</span>
+          <div class="divider"><i class="fa-solid fa-leaf"></i></div>
+          <p class="lead" style="margin-top:26px;">
+            "Two hearts, one quiet lake, and a lifetime of promises. We would be honoured
+            to have you beside us as we begin our forever."
+          </p>
+          <p class="host">The Sharma &amp; Patel families request the pleasure of your company</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== COUPLE ===================== -->
+    <section class="section alt" id="couple">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="script">Meet the</span>
+          <h2>Happy Couple</h2>
+          <div class="divider"><i class="fa-solid fa-heart"></i></div>
+        </div>
+
+        <div class="couple-grid reveal">
+          <article class="couple-card">
+            <img class="couple-img" src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=500" alt="Aarav Sharma, the groom" loading="lazy">
+            <h3>Aarav Sharma</h3>
+            <p class="role">The Groom</p>
+            <p class="parents">Son of Mr. &amp; Mrs. Sharma</p>
+            <p class="quote">"In her smile, I see something more beautiful than the stars."</p>
+          </article>
+
+          <article class="couple-card">
+            <img class="couple-img" src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&q=80&w=500" alt="Ananya Patel, the bride" loading="lazy">
+            <h3>Ananya Patel</h3>
+            <p class="role">The Bride</p>
+            <p class="parents">Daughter of Mr. &amp; Mrs. Patel</p>
+            <p class="quote">"Hand in hand, by the calm waters, where forever begins."</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== ITINERARY ===================== -->
+    <section class="section" id="events">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="script">Our day</span>
+          <h2>Wedding Itinerary</h2>
+          <div class="divider"><i class="fa-solid fa-leaf"></i></div>
+          <p>Celebrate with us through every moment of the day.</p>
+        </div>
+
+        <div class="timeline reveal">
+          <div class="tl-item">
+            <div class="tl-card">
+              <span class="tl-time">10:00 AM</span>
+              <h3>Welcome &amp; Floral Blessing</h3>
+              <p>Gather at the waterfront floral archway with light refreshments.</p>
+            </div>
+          </div>
+          <div class="tl-item">
+            <div class="tl-card">
+              <span class="tl-time">11:30 AM</span>
+              <h3>The Wedding Ceremony</h3>
+              <p>Witness the exchange of vows along the serene lakeside shore.</p>
+            </div>
+          </div>
+          <div class="tl-item">
+            <div class="tl-card">
+              <span class="tl-time">02:00 PM</span>
+              <h3>Grand Feast &amp; Music</h3>
+              <p>Delicious cuisine and live acoustic performances in the garden pavilion.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== VENUE ===================== -->
+    <section class="section alt" id="venue">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="script">Find us at</span>
+          <h2>The Venue</h2>
+          <div class="divider"><i class="fa-solid fa-location-dot"></i></div>
+        </div>
+
+        <div class="venue reveal">
+          <div class="venue-img" role="img" aria-label="Lakeside wedding venue"></div>
+          <div class="venue-body">
+            <h3>The Serene Lake Resort &amp; Gardens</h3>
+            <address>Lakeside Road, Kerala, India</address>
+            <ul class="venue-facts">
+              <li><i class="fa-regular fa-calendar"></i><span>Tuesday, 24 November 2026</span></li>
+              <li><i class="fa-regular fa-clock"></i><span>Guests are requested to be seated by 10:30 AM</span></li>
+              <li><i class="fa-solid fa-shirt"></i><span>Dress code: soft pastels, traditional or semi-formal</span></li>
+              <li><i class="fa-solid fa-car"></i><span>Complimentary valet and parking on site</span></li>
+            </ul>
+            <!-- Replace the link below with the exact Google Maps location of the venue -->
+            <a class="btn" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=The+Serene+Lake+Resort+and+Gardens">
+              <i class="fa-solid fa-diamond-turn-right"></i> Get Directions
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== GALLERY ===================== -->
+    <section class="section" id="gallery">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="script">Our story in</span>
+          <h2>Captured Moments</h2>
+          <div class="divider"><i class="fa-solid fa-camera"></i></div>
+          <p>Glimpses of our journey together.</p>
+        </div>
+
+        <div class="gallery-grid reveal">
+          <figure class="gallery-item"><img src="https://images.unsplash.com/photo-1511285560929-80b456fea0bc?auto=format&fit=crop&q=80&w=900" alt="Couple moment 1" loading="lazy"></figure>
+          <figure class="gallery-item"><img src="https://images.unsplash.com/photo-1519225421980-715cb0215aed?auto=format&fit=crop&q=80&w=700" alt="Couple moment 2" loading="lazy"></figure>
+          <figure class="gallery-item"><img src="https://images.unsplash.com/photo-1583939003579-730e3918a45a?auto=format&fit=crop&q=80&w=700" alt="Couple moment 3" loading="lazy"></figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== RSVP ===================== -->
+    <section class="section alt" id="rsvp">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="script">Kindly reply</span>
+          <h2>R.S.V.P</h2>
+          <div class="divider"><i class="fa-solid fa-envelope"></i></div>
+          <p>Please let us know by 10 November 2026 if you will be joining our special day.</p>
+        </div>
+
+        <div class="rsvp-box reveal">
+          <form id="rsvpForm" novalidate>
+            <div class="form-group">
+              <label for="fullName">Your full name</label>
+              <input type="text" id="fullName" class="form-control" placeholder="e.g. Rahul Menon" required autocomplete="name">
+            </div>
+
+            <div class="rsvp-row">
+              <div class="form-group">
+                <label for="attending">Will you attend?</label>
+                <select id="attending" class="form-control">
+                  <option value="Joyfully accepts">Joyfully accept</option>
+                  <option value="Regretfully declines">Regretfully decline</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="guests">Number of guests</label>
+                <input type="number" id="guests" class="form-control" min="1" max="10" value="1">
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="message">Warm wishes</label>
+              <textarea id="message" class="form-control" placeholder="Leave a note for the couple..."></textarea>
+            </div>
+
+            <button type="submit" class="btn"><i class="fa-brands fa-whatsapp"></i> Send RSVP on WhatsApp</button>
+          </form>
+          <div id="rsvpStatus" class="rsvp-status" role="status" aria-live="polite"></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===================== COMPANY DETAILS ===================== -->
+  <footer class="company" id="contact">
+    <div class="container">
+      <div class="company-top">
+        <div class="company-mark">M</div>
+        <p class="small">Wedding Planning Service</p>
+        <h2>Mangotales Weddings</h2>
+        <p class="tagline">#TalesOfLoveAndRelationships</p>
+        <p class="services">Wedding &nbsp;|&nbsp; Modelling &nbsp;|&nbsp; Portraits &nbsp;|&nbsp; Maternity</p>
+      </div>
+
+      <div class="company-grid">
+        <div class="c-card">
+          <i class="fa-solid fa-phone"></i>
+          <h4>Call Us</h4>
+          <a href="tel:+918129679738">+91 8129679738</a>
+          <a href="tel:+917907232095">+91 7907232095</a>
+        </div>
+
+        <div class="c-card">
+          <i class="fa-brands fa-instagram"></i>
+          <h4>Follow Us</h4>
+          <a href="https://www.instagram.com/mangotales.in/" target="_blank" rel="noopener">@mangotales.in</a>
+        </div>
+
+        <div class="c-card">
+          <i class="fa-solid fa-location-dot"></i>
+          <h4>We Serve</h4>
+          <div class="city-list"><p>Kerala</p><p>Chennai</p><p>Bengaluru</p></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="copyright">
+      <div class="container">&copy; 2026 Mangotales Weddings. Invitation designed and curated with love.</div>
+    </div>
+  </footer>
+
+  <script>
+    // ---------- Easy client settings ----------
+    // Wedding date/time (ceremony start)
+    var WEDDING_DATE = new Date('2026-11-24T11:30:00+05:30').getTime();
+    // WhatsApp number that receives RSVPs (country code + number, digits only)
+    var RSVP_WHATSAPP = '918129679738';
+    // Optional theme: '', 'royal-gold' or 'floral-rose'
+    var THEME = '';
+    if (THEME) document.documentElement.setAttribute('data-theme', THEME);
+
+    // ---------- Open invitation ----------
+    document.getElementById('openBtn').addEventListener('click', function () {
+      document.getElementById('invitation-preloader').classList.add('opened');
+      document.body.classList.remove('locked');
+      window.scrollTo(0, 0);
+    });
+
+    // ---------- Countdown ----------
+    function pad(n) { return n < 10 ? '0' + n : String(n); }
+    function updateCountdown() {
+      var diff = WEDDING_DATE - Date.now();
+      if (diff < 0) diff = 0;
+      document.getElementById('days').textContent  = pad(Math.floor(diff / 86400000));
+      document.getElementById('hours').textContent = pad(Math.floor(diff % 86400000 / 3600000));
+      document.getElementById('mins').textContent  = pad(Math.floor(diff % 3600000 / 60000));
+      document.getElementById('secs').textContent  = pad(Math.floor(diff % 60000 / 1000));
+    }
+    updateCountdown();
+    setInterval(updateCountdown, 1000);
+
+    // ---------- Scroll reveal ----------
+    var items = document.querySelectorAll('.reveal');
+    if ('IntersectionObserver' in window) {
+      var io = new IntersectionObserver(function (entries) {
+        entries.forEach(function (e) {
+          if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); }
+        });
+      }, { threshold: 0.12 });
+      items.forEach(function (el) { io.observe(el); });
+    } else {
+      items.forEach(function (el) { el.classList.add('in'); });
+    }
+
+    // ---------- RSVP via WhatsApp ----------
+    document.getElementById('rsvpForm').addEventListener('submit', function (e) {
+      e.preventDefault();
+      var name = document.getElementById('fullName').value.trim();
+      var status = document.getElementById('rsvpStatus');
+      if (!name) { document.getElementById('fullName').focus(); return; }
+
+      var attending = document.getElementById('attending').value;
+      var guests = document.getElementById('guests').value;
+      var note = document.getElementById('message').value.trim();
+
+      var text = 'Hello! RSVP for Aarav & Ananya\'s wedding (24 Nov 2026).\n' +
+                 'Name: ' + name + '\n' +
+                 'Response: ' + attending + '\n' +
+                 'Guests: ' + guests +
+                 (note ? '\nNote: ' + note : '');
+
+      window.open('https://wa.me/' + RSVP_WHATSAPP + '?text=' + encodeURIComponent(text), '_blank', 'noopener');
+
+      status.innerHTML = '<span class="script">Thank you!</span>' +
+        'Your RSVP is ready, ' + name.replace(/</g, '&lt;') + '. Please press send in WhatsApp to confirm.';
+      status.classList.add('show');
+      this.reset();
+    });
+  </script>
+</body>
+</html>
